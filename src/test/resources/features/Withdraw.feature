@@ -1,5 +1,6 @@
 Feature: Transaction validation
 
+  @Regression
   Scenario: Verify user can transfer the fund
     Given user open website
     When user is entering valid username "username" and valid password "password"
